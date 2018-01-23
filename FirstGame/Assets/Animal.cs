@@ -13,9 +13,12 @@ public class Animal : MonoBehaviour {
 	print("Were you expecting this to be a good game?");
 	
 	}
-	
+	// All functions need a () to work in C#
+	// A class is a "box" containing functions that do "stuff"
+	// Void is a function. A type of function. "Do work, give nothing back."
 	// Update is called once per frame
-	void Update () {
-		
+	void OnMouseDown()
+	{
+		print("Mouse Click!");
 	}
 }
