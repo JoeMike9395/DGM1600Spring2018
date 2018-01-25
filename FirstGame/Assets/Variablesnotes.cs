@@ -5,6 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour {
 
 // Function Declaration and a Call Function
+// Data type (Variables) examples is class, void, string, int(whole number), and float(non-whole number).
 // Function Declaration can be void Start() {STUFF}
 // Call function can be Start(); inside a Function Declaration. Or used to call an audio (Or any) file.
 // A box within a box within a box (Classes)
