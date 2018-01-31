@@ -18,6 +18,8 @@ public class Animal : MonoBehaviour {
 		}
 		// Two Equal signs become a compare operator. A single equal sign is a operator.
 		// To make an if not statement, type if ("stuff" != "Stuff")
+        // The if statement must be true or false.
+        // bool is a command that means true or false.
 	
 		if(Name == "Dog")
 		{
@@ -30,7 +32,7 @@ public class Animal : MonoBehaviour {
 		}
 		if(Name != "Frog")
 		{
-			print(Name + "is not a reptile. Or amused.");
+			print(Name + " is not a reptile. Or amused.");
 		}
 	}
 
