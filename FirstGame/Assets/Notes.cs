@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class NewBehaviourScript : MonoBehaviour {}
 
 // Function Declaration and a Call Function
 // Data type (Variables) examples is class, void, string, int(whole number), and float(non-whole number).
@@ -15,13 +15,9 @@ public class NewBehaviourScript : MonoBehaviour {
 // Void is a type of function. It does work but gives nothing back.
 // Anthony how much do you like McDonalds?
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+
+// Else Clauses:
+// if (true){
+	//Run Code}
+// {else
+	//Run Code}
