@@ -15,9 +15,25 @@ public class NewBehaviourScript : MonoBehaviour {}
 // Void is a type of function. It does work but gives nothing back.
 // Anthony how much do you like McDonalds?
 
+//if (TRUTH)
+//RUN
+// Very simple. IF the statement is true. It does stuff. ex. (Name == Frog)<-Clicked Frog.
 
 // Else Clauses:
 // if (true){
 	//Run Code}
 // {else
 	//Run Code}
+// = Assign Value
+// == Check Equality
+// != Check Unequality
+// >=
+// >
+// <=
+// <
+
+// Shortened if and else statements that could work WITH ONE LINE is something like:
+// public bool Key ? print("Yes it is true" : "No it's not true");
+
+//If you have more than 2 statements. Then don't use If Else statements. They are for TRUE or FALSE.
+//Otherwise use something called a switch.
