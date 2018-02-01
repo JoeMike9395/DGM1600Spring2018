@@ -34,6 +34,14 @@ public class Animal : MonoBehaviour {
 		{
 			print(Name + " is not a reptile. Or amused.");
 		}
+		if(FoodCount == 50)
+		{
+			print("Yes, I have 50 Food.");
+		}
+		if(Name == "Frog")
+		{
+			print(Name + " is a reptile, and very amused.");
+		}
 	}
 
 
