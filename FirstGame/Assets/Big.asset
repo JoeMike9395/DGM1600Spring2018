@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bfbc2e3c66419b4687ac823a164dba5, type: 3}
-  m_Name: Health
+  m_Name: Big
   m_EditorClassIdentifier: 
   PowerLevel: 100
-  Name: Health
+  CurrentPlayer: {fileID: 11400000, guid: 46e6967aec5eb4240a3bab56dcb20207, type: 2}
