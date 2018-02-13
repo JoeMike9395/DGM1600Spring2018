@@ -9,6 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d593df833b4673544a1fa055dd3b78ff, type: 3}
-  m_Name: Player 1
+  m_Name: Joe
   m_EditorClassIdentifier: 
-  Score: 0
+  PlayerName: Joe
+  Score: 532
+  MPs: 100

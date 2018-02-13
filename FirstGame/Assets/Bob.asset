@@ -8,8 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbc2e3c66419b4687ac823a164dba5, type: 3}
-  m_Name: Small
+  m_Script: {fileID: 11500000, guid: d593df833b4673544a1fa055dd3b78ff, type: 3}
+  m_Name: Bob
   m_EditorClassIdentifier: 
-  PowerLevel: 10
-  CurrentPlayer: {fileID: 11400000, guid: 46e6967aec5eb4240a3bab56dcb20207, type: 2}
+  PlayerName: Bob
+  Score: 999
+  MPs: 42
