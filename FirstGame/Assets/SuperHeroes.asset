@@ -8,9 +8,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d593df833b4673544a1fa055dd3b78ff, type: 3}
-  m_Name: Blake
+  m_Script: {fileID: 11500000, guid: b68cbe29eae14a14eb5ef62afb435818, type: 3}
+  m_Name: SuperHeroes
   m_EditorClassIdentifier: 
-  PlayerName: Blake
-  Score: 469
-  MPs: 96
+  FamilyList:
+  - Bob
+  - 
+  - Velvet
+  - Grace
+  - Grace
+  - Grace
+  - Grace
+  - Grace
+  - Grace
+  - Grace
