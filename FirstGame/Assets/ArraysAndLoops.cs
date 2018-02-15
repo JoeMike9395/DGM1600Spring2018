@@ -8,17 +8,19 @@ public class ArraysAndLoops : MonoBehaviour {
     public int[] HighScores;
 
     void Start () {
-        foreach (var player in Player) {
-            print (player.PlayerName);
-            print (player.Score);
-            print (player.MPs);
+        foreach (var player in Players)
+        {
+            print(player.PlayerName);
+            print(player.Score);
+            print(player.MPs);
         }
         //For each is the loop. Inside the parenthesis is the parameter.
         //Loops are massive time savers that shorten lines of code.
 
         foreach (var score in HighScores) {
-            if (score >= 750) {
-                print (score);
+            if (score >= 350) 
+            {
+                print(score);
             }
         }
     }
