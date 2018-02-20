@@ -8,17 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b68cbe29eae14a14eb5ef62afb435818, type: 3}
-  m_Name: SuperHeroes
+  m_Script: {fileID: 11500000, guid: 556e3b78a98200f4bafcedeef907769c, type: 3}
+  m_Name: Health
   m_EditorClassIdentifier: 
-  FamilyList:
-  - Bob
-  - 
-  - Velvet
-  - Grace
-  - Grace
-  - Grace
-  - Grace
-  - Grace
-  - Grace
-  - Grace
+  PowerLevel: 0

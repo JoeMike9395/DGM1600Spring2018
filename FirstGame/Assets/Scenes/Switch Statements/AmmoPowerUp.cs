@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class SuperHeroes : ScriptableObject
+public class AmmoPowerUp : PowerUpBase {
 
-{
-public List<string> FamilyList;
 }
