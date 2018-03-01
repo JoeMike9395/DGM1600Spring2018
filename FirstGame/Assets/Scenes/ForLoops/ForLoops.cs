@@ -32,7 +32,7 @@ public class ForLoops : MonoBehaviour {
     {
         for (int i = 0; i < Keys.Length; i++)
         {
-            print (Keys);
+            print (Keys[i]);
         }
     }
     // Run is a function we can make and use whenever we want.
