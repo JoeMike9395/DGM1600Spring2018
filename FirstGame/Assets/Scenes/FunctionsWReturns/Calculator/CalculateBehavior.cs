@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+//Need .UI for Input Fields
 
 public class CalculateBehavior : MonoBehaviour {
     public InputField Input1;
