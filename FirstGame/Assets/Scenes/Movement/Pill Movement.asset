@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Pill Movement
   m_EditorClassIdentifier: 
   speed: 6
-  jumpSpeed: 32
+  jumpSpeed: 20
   gravity: 20
