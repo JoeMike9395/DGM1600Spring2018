@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class SlowMovement : MonoBehaviour {
 
-    private void  OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider Player)
     {
-        print("You hit something");
+        print("You got a Power Up");
 
-        MovePattern = SlowPattern
+   //     return speed = 2;
+   //     return gravity = 2;
+   //     return jumpSpeed = 2;
+
+    //    MovePattern = SlowPattern
     }
 
 
