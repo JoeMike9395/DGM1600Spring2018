@@ -13,18 +13,18 @@ public class MovePattern : ScriptableObject {
     public InputBase InputX;
     public InputBase InputZ;
     public InputBase InputY;
+    public InputBase JumpInput;
 
     public void Move (CharacterController controller, Transform transform) {
         if (controller.isGrounded) {
             //This is a boolean variable. (On/Off)
             //Place a ! before controller to make it move when not grounded.
-            moveDirection.x = InputX.SetFloat();
-            moveDirection.z = InputZ.SetFloat();
-            moveDirection.y = InputY.SetFloat();
+            moveDirection.x = InputX.SetFloat ();
+            moveDirection.z = InputZ.SetFloat ();
+            moveDirection.y = InputY.SetFloat ();
             moveDirection = transform.TransformDirection (moveDirection);
             moveDirection *= speed;
-            if (Input.GetButton ("Jump"))
-                moveDirection.y = jumpSpeed;
+            moveDirection.y = JumpInput.SetFloat ();
 
         }
         moveDirection.y -= gravity * Time.deltaTime;

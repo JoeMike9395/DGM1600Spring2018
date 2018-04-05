@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d43ae18c488a72649aec08752bd6042c, type: 3}
-  m_Name: Pill Movement
+  m_Name: SideScroller
   m_EditorClassIdentifier: 
   speed: 6
   jumpSpeed: 20
   gravity: 20
   InputX: {fileID: 11400000, guid: 20756574e05c503438e1d3e21f06301b, type: 2}
-  InputZ: {fileID: 11400000, guid: 03711e2458a876e4c8264edf9fc99881, type: 2}
+  InputZ: {fileID: 11400000, guid: 6105814ff5260734cb0c1891392042c9, type: 2}
   InputY: {fileID: 11400000, guid: 6105814ff5260734cb0c1891392042c9, type: 2}
-  JumpInput: {fileID: 11400000, guid: 77343f4c13d19af49933960b268c8723, type: 2}
+  JumpInput: {fileID: 11400000, guid: 76980461d5c96694a92b9ad8f3e0c354, type: 2}

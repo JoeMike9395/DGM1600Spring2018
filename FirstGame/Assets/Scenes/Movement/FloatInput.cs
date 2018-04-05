@@ -6,7 +6,7 @@ using UnityEngine;
 public class FloatInput : InputBase
 {
 
-	public string InputName = "Horizontal";
+	public string InputName = "Movement";
 
 	public override float SetFloat ()
 	{

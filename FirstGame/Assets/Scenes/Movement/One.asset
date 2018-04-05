@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 596293c04f6cd5743ac0d786724e0414, type: 3}
-  m_Name: Vertical
+  m_Script: {fileID: 11500000, guid: ca58ae6f32832f1449382c5139fd38ba, type: 3}
+  m_Name: One
   m_EditorClassIdentifier: 
-  InputName: Vertical
+  FloatValue: 1
