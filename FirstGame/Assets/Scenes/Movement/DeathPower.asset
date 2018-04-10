@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d43ae18c488a72649aec08752bd6042c, type: 3}
-  m_Name: SlowPower
+  m_Name: DeathPower
   m_EditorClassIdentifier: 
   speed: 2
   jumpSpeed: 2
@@ -17,3 +17,4 @@ MonoBehaviour:
   InputX: {fileID: 11400000, guid: 6105814ff5260734cb0c1891392042c9, type: 2}
   InputZ: {fileID: 11400000, guid: 6105814ff5260734cb0c1891392042c9, type: 2}
   InputY: {fileID: 11400000, guid: 6105814ff5260734cb0c1891392042c9, type: 2}
+  JumpInput: {fileID: 11400000, guid: 6105814ff5260734cb0c1891392042c9, type: 2}

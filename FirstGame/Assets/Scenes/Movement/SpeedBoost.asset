@@ -8,8 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fce4a5798a179e9409800fd388a7fb10, type: 3}
-  m_Name: Jump
+  m_Script: {fileID: 11500000, guid: 062a87b0d114af34fbee16ab12581b87, type: 3}
+  m_Name: SpeedBoost
   m_EditorClassIdentifier: 
-  InputName: Jump
-  FloatValue: 15
+  PowerLevel: 0
+  MovePatternTransfer: {fileID: 11400000, guid: db844a56eec289e46a439d1bfa3cadfe,
+    type: 2}
