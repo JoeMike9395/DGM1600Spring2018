@@ -8,6 +8,10 @@ public class Trigger : MonoBehaviour {
     public PowerUp PowerUpTransfer;
     public float PowerLevel = 1.0F;
     public Image HealthBar;
+    public Color Healthy;
+    public Color Low;
+    public Color Critical;
+    
 
     public float AddHealth(){
 
@@ -16,7 +20,7 @@ public class Trigger : MonoBehaviour {
 
     private void OnTriggerEnter (Collider obj) {
 
-        obj.GetComponent<Movement> ().MovePattern = PowerUpTransfer.Transfer ();
+        obj.GetComponent<Movement>().Player.MovePattern = PowerUpTransfer.Transfer ();
         if (HealthBar.fillAmount > 0); 
         {
             PowerLevel = AddHealth();
@@ -26,7 +30,7 @@ public class Trigger : MonoBehaviour {
     }
 
     public void ColorChange(){
-        if (PowerLevel < 0.5F);
+        if (HealthBar.fillAmount < 0.5);
         {
             HealthBar.color = Color.green;
         }
