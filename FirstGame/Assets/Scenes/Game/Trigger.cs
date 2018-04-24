@@ -29,11 +29,15 @@ public class Trigger : MonoBehaviour {
         gameObject.SetActive (false);
     }
 
-    public void ColorChange(){
-        if (HealthBar.fillAmount < 0.5);
+    private void Update()
+    {
+        if (HealthBar.fillAmount >= 0.5F)
         {
             HealthBar.color = Color.green;
         }
+        else
+        {
+            HealthBar.color = Color.red;
+        }
     }
-
 }

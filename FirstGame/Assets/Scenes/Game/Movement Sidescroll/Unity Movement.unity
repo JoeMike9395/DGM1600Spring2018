@@ -604,14 +604,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 18539636}
-        m_MethodName: ResetTrigger
+        m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: StartGame
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1075,9 +1075,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6e45cd4f3f8ea449b7a55696c18335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PowerUpTransfer: {fileID: 0}
+  PowerUpTransfer: {fileID: 11400000, guid: 1dbf55019bd88ba4aa0a4f8e03ff71fd, type: 2}
   PowerLevel: 0
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 1363097333}
   Healthy: {r: 0, g: 1, b: 0, a: 0}
   Low: {r: 0.81771415, g: 0.9852941, b: 0.05071366, a: 0}
   Critical: {r: 0.9044118, g: 0.093101196, b: 0.093101196, a: 0}
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUpTransfer: {fileID: 11400000, guid: c4bcb7c7d72eed64cba5f6c60da0da63, type: 2}
   PowerLevel: 1
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 1363097333}
   Healthy: {r: 0, g: 0, b: 0, a: 0}
   Low: {r: 0, g: 0, b: 0, a: 0}
   Critical: {r: 0, g: 0, b: 0, a: 0}
@@ -1404,7 +1404,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1686873859
+  randomSeed: -797517064
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4784,7 +4784,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1b3cc9c110786934f912b0168d8357e9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4967,7 +4967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUpTransfer: {fileID: 11400000, guid: 2f5e2f45eab1def4981bfaf8e4757c93, type: 2}
   PowerLevel: 1
-  HealthBar: {fileID: 0}
+  HealthBar: {fileID: 1363097333}
   Healthy: {r: 0, g: 0, b: 0, a: 0}
   Low: {r: 0, g: 0, b: 0, a: 0}
   Critical: {r: 0, g: 0, b: 0, a: 0}
