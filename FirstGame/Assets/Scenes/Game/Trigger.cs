@@ -11,7 +11,6 @@ public class Trigger : MonoBehaviour {
     public Color Healthy;
     public Color Low;
     public Color Critical;
-    
 
     public float AddHealth(){
 
@@ -38,6 +37,11 @@ public class Trigger : MonoBehaviour {
         else
         {
             HealthBar.color = Color.red;
+        }
+
+        while (HealthBar.fillAmount <= 0.1F)
+        {
+            print("Holy @#$# you need health!");
         }
     }
 }
